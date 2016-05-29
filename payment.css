@@ -1,0 +1,101 @@
+.payee{
+  position: absolute;
+  margin-left: 400px;
+  margin-top: 90px;
+  height: 150px;
+  width: 350px;
+  padding: 10px;
+  z-index: 2;
+}
+
+.payee input[type=text]{
+  width: 300px;
+  height: 35px;
+  background: transparent;
+  border: 2px solid white;
+  opacity: 0.9;
+  border-radius: 2px;
+  color: #fff;
+  font-family: 'Exo', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 6px;
+}
+
+.payee input[type=password]{
+  width: 300px;
+  height: 35px;
+  background: transparent;
+  border: 2px solid white;
+  opacity: 0.9;
+  border-radius: 2px;
+  color: #fff;
+  font-family: 'Exo', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 6px;
+  margin-top: 10px;
+}
+
+.payee input[type=submit]{
+  width: 300px;
+  height: 35px;
+  background-color: #154360;
+  border: 2px solid #fff;
+  cursor: pointer;
+  border-radius: 2px;
+  color: #a18d6c;
+  font-family: 'Exo', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: white;
+  padding: 6px;
+  margin-top: 10px;
+}
+.payee input[type=int]{
+  width: 300px;
+  height: 35px;
+  background:transparent;
+  border: 2px solid #fff;
+  cursor: pointer;
+  border-radius: 2px;
+  color: #a18d6c;
+  font-family: 'Exo', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: white;
+  padding: 6px;
+  margin-top: 10px;
+}
+
+.payee input[type=submit]:hover{
+  background-color: white;
+  color: #154360;
+}
+
+.payee input[type=submit]:active{
+  background-color: #154360;
+  color: white;
+}
+
+.payee input[type=text]:focus{
+  outline: none;
+  border: 2px solid rgba(255,255,255,0.9);
+}
+
+.payee input[type=password]:focus{
+  outline: none;
+  border: 2px solid rgba(255,255,255,0.9);
+}
+
+.payee input[type=submit]:focus{
+  outline: none;
+}
+
+::-webkit-input-placeholder{
+   color: rgba(255,255,255,0.8);
+}
+
+::-moz-input-placeholder{
+   color: rgba(255,255,255,0.8);
+}

@@ -1,0 +1,169 @@
+.profile
+{
+	list-style-type: none; 
+	display: block;
+	height: 10px;
+	background-color: #ffffff
+	width: 20px; 
+	position: absolute;
+}
+
+.profile a
+{
+	display: block;
+	border-style: groove;
+	font-family: 'Shift', sans-serif;
+	background-color: #ffffff;
+	text-align: left;
+	margin-top: 20px;
+	margin-left: 0px;
+	width: 100px;
+}
+
+.personal
+{
+	margin-top: 30px;
+}
+
+ul.personal
+{
+	list-style-type: none;
+    margin: 0px;
+    padding: 0;
+    width: 175px;
+    background-color: black;
+}
+
+.personal li a
+{
+	text-align: left;
+	display: block;
+    color: #ffffff;
+    text-decoration: none;
+    width: 175px;
+    margin: 0px;
+}
+
+.personal li a:hover
+{
+	background-color: #1879BC;
+    color: white;
+}
+
+#nav 
+{
+	margin-top: 5px;
+	list-style-type: none;
+    line-height:20px;
+    display: block;
+    overflow: hidden;
+    box-sizing: all;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    text-align: center;
+    height:300px;
+    width:175px;
+    float:left;
+    padding:5px;
+    box-sizing: border-box;	      
+}
+
+#page
+{
+	position: absolute;
+	margin-left: 180px;
+	margin-top: 5px;
+	vertical-align: all; 
+	border: 1px solid white;
+	height: 500px;
+	width: 1020px;
+}
+#page li
+{
+	font: message-box;
+	margin-left: 110px;
+	display: block;
+	box-sizing: all;
+	width: 600px;
+	height: 30px;
+	vertical-align: all;
+	background: transparent;
+	font-size: 20px;
+	color: white;
+
+}
+#page ul
+{
+	width: 800px;
+	margin-top: 40px;
+	vertical-align: all;
+	align-items: vertical;
+	background: transparent;
+}
+#page ol
+{
+	position: absolute;
+	margin-left: 200px;
+	height: 300px;
+}
+#page ol li
+{
+	font: message-box;
+	margin-left: 110px;
+	display: block;
+	padding-bottom: 14px;
+	padding-top: 12px;
+	box-sizing: all;
+	width: 300px;
+	height: 30px;
+	vertical-align: all;
+	background: transparent;
+	font-size: 20px;
+	color: white;
+}
+#page ol li a
+{
+	border: 1px solid white;
+}
+
+#identity
+{
+	position: absolute;
+	margin-left: 180px;
+	margin-top: 5px;
+	vertical-align: all; 
+	border: 1px solid white;
+	height: 400px;
+	width: 1020px;
+	background: transparent;
+}
+#identity li
+{
+	font: message-box;
+	margin-left: 110px;
+	display: block;
+	width: 200px;
+	background: transparent;
+	height: 35px;
+	vertical-align: all;
+	font-size: 20px;
+}
+#identity ul
+{
+	width: 1000px;
+	font-size: 25px;
+	color: white;
+	border: none;
+	background: transparent;
+	margin-top: 40px;
+	vertical-align: all;
+	align-items: vertical;
+}
+#profiling
+{
+	height: 500px;
+	border: none;
+
+}
+

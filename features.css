@@ -1,0 +1,20 @@
+.features
+{
+	background: rgba(3,3,3,0.5);
+	width: 1310px;
+	margin-left: 10px;
+	margin-top: 40px;
+	font-size: 22px;
+	position: absolute;
+}
+
+.contact
+{
+	background: rgba(3,3,3,0.5);
+	width: 1310px;
+	margin-left: 10px;
+	margin-top: 300px;
+	font-size: 22px;
+	position: absolute;	
+}
+

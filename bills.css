@@ -1,0 +1,57 @@
+#ol
+{
+	position: absolute;
+	margin-left: 180px;
+	margin-top: 5px;
+	vertical-align: all; 
+	border: 1px solid white;
+	height: 400px;
+	width: 1020px;
+}
+#ol li
+{
+	font: message-box;
+	margin-left: 110px;
+	display: block;
+	box-sizing: all;
+	width: 600px;
+	height: 30px;
+	vertical-align: all;
+	background: transparent;
+	font-size: 20px;
+	color: white;
+
+}
+#ol ul
+{
+	width: 800px;
+	margin-top: 40px;
+	vertical-align: all;
+	align-items: vertical;
+	background: transparent;
+}
+#ol ol
+{
+	position: absolute;
+	margin-left: 200px;
+	height: 300px;
+}
+#ol ol li
+{
+	font: message-box;
+	margin-left: 110px;
+	display: block;
+	padding-bottom: 14px;
+	padding-top: 12px;
+	box-sizing: all;
+	width: 300px;
+	height: 30px;
+	vertical-align: all;
+	background: transparent;
+	font-size: 20px;
+	color: white;
+}
+#ol ol li a
+{
+	border: 1px solid white;
+}

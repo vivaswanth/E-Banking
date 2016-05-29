@@ -1,0 +1,168 @@
+#reg1
+{
+	width: 1366px;
+	background-image: url(images/b2.jpg);
+	height: 750px;
+	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+#reg1 li
+{
+	font: bold;
+	display: block;
+	height: 30px;
+}
+
+#reg2
+{
+	margin-left: 700px;
+	border-color: #333;
+  background: rgba(3,3,3,0.7);
+	height: 650px;
+	
+}
+#reg2 ol
+{
+	height: 650px;
+	margin-top: 30px;
+	display: block;
+	border-style: solid;
+	border-color: white;
+	border-width: 2px;
+}
+#reg2 label
+{
+	display:inline-block;
+	width:300px;
+	margin-top: 30px;
+	margin-right:30px;
+	text-align:right;
+}
+#reg2 li
+{
+	color: white;
+}
+
+#reg2 input[type=text]{
+  width: 250px;
+  height: 35px;
+  background: transparent;
+  border: 2px solid rgba(255,255,255,0.6);
+  border-radius: 2px;
+  color: #fff;
+  font-family: 'Exo', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 6px;
+}
+
+#reg2 input[type=password]{
+  width: 250px;
+  height: 35px;
+  background: transparent;
+  border: 2px solid rgba(255,255,255,0.6);
+  border-radius: 2px;
+  color: #fff;
+  font-family: 'Exo', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 6px;
+  margin-top: 10px;
+}
+
+#reg2 input[type=number]{
+  width: 250px;
+  height: 35px;
+  background: transparent;
+  border: 2px solid rgba(255,255,255,0.6);
+  border-radius: 2px;
+  color: #fff;
+  font-family: 'Exo', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 6px;
+  margin-top: 10px;
+}
+
+#reg2 input[type=date]{
+  width: 250px;
+  height: 35px;
+  background: transparent;
+  border: 2px solid rgba(255,255,255,0.6);
+  border-radius: 2px;
+  color: #fff;
+  font-family: 'Exo', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 6px;
+  margin-top: 10px;
+}
+
+#reg2 input[type=longtext]{
+  width: 250px;
+  height: 35px;
+  background: transparent;
+  border: 2px solid rgba(255,255,255,0.6);
+  border-radius: 2px;
+  color: #fff;
+  font-family: 'Exo', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 6px;
+  margin-top: 10px;
+}
+
+
+
+#reg2 input[type=submit]{
+  width: 250px;
+  height: 35px;
+  margin-left: 120px;
+  margin-top: 120px;
+  background: #fff;
+  border: 2px solid #fff;
+  cursor: pointer;
+  border-radius: 2px;
+  color: #a18d6c;
+  font-family: 'Exo', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 6px;
+  margin-top: 10px;
+}
+
+#reg2 input[type=submit]:hover{
+  background-color: #154360;
+  color: white;
+  opacity: 0.9;
+}
+
+#reg2 input[type=submit]:active{
+  background-color: #154360;
+  color: white;
+  opacity: 0.6;
+}
+
+#reg2 input[type=text]:focus{
+  outline: none;
+  border: 2px solid rgba(255,255,255,0.9);
+}
+
+#reg2 input[type=password]:focus{
+  outline: none;
+  border: 2px solid rgba(255,255,255,0.9);
+}
+
+#reg2 input[type=submit]:focus{
+  outline: none;
+}
+
+::-webkit-input-placeholder{
+   color: rgba(255,255,255,0.6);
+}
+
+::-moz-input-placeholder{
+   color: rgba(255,255,255,0.6);
+}
+

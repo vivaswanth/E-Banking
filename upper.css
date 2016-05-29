@@ -1,0 +1,53 @@
+.upar
+{
+	position: absolute;
+	display: block;
+	width: 100%;
+	height: 40px;
+	top: 0;
+	left: 0;
+	background: transparent;
+}
+
+.upar ul
+{
+	list-style-type: none;
+	padding: 4px;
+    overflow: hidden;
+    margin-left: 700px;
+}
+
+.upar li
+{
+	float: left;
+	height: 35px;
+	display: block;
+	color: white;
+}
+
+.upar li a
+{
+
+	font: message-box;
+	font-size: 20px;
+	color: white;
+	height: 30px;
+	display: block;
+	align-items: center;
+    text-decoration: none;
+    padding: 2px 14px;
+}
+
+.upar a:hover, a:active {
+    font-size: 22px;
+    text-shadow: 2px 0 25px #fff;
+    background:transparent;
+    color: white;
+}
+
+.upar a 
+{
+-webkit-transition: all 0.7s ease;
+transition: all 0.7s ease;
+}
+
